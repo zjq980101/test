@@ -1,0 +1,118 @@
+@import url(reset.css);
+body {
+  font-size: 0.16rem; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.header {
+  width: 100%;
+  height: 0.94rem;
+  background: #393a3f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative; }
+  .header p {
+    color: #fbfcfe;
+    font-weight: bold;
+    font-size: 0.25rem; }
+  .header p:nth-child(1) em {
+    color: #000;
+    height: 1rem; }
+  .header p:nth-child(2) {
+    padding-left: 0.2rem; }
+  .header p:nth-child(3) {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.3rem; }
+
+.mark {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.content {
+  width: 6.5rem;
+  height: 8rem;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto; }
+
+.top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .top b {
+    width: 3rem;
+    height: 0.94rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.2rem; }
+    .top b img {
+      width: 100%;
+      height: auto; }
+  .top span {
+    padding-top: 0.2rem;
+    color: #50555b;
+    font-size: 0.35rem; }
+
+.bottom {
+  width: 100%;
+  height: auto; }
+  .bottom form {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 0.4rem; }
+    .bottom form span {
+      width: 0.52rem;
+      height: 0.56rem;
+      display: inline-block; }
+      .bottom form span img {
+        width: 70%;
+        height: auto; }
+    .bottom form input {
+      width: 100%;
+      height: 0.92rem;
+      outline: 0;
+      border: 0;
+      color: #ccc; }
+
+#btn {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 1rem; }
+  #btn button {
+    width: 100%;
+    height: 0.7rem;
+    background: #2fba77;
+    color: #fff;
+    border: 0;
+    outline: 0; }
+
+/*# sourceMappingURL=style.css.map */
